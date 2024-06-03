@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.API", "AddressBook.API\AddressBook.API.csproj", "{2F8BFD1A-2D01-4F60-B2AC-8E7F93837904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{7815AF6F-5704-49D7-868F-2B22E978ED78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F6796243-9443-47F0-9B9E-394DC7933666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DEB6E769-4726-4599-B8E8-9E42BF20211B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{82B3ED74-7E0A-4337-80A7-6E364FF46340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FE961543-E1FA-4890-A844-93E85D14BF41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Application", "AddressBook.Application\AddressBook.Application.csproj", "{C4E10DEE-533F-4B25-8AC3-EE8ED4C8F5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Core", "AddressBook.Core\AddressBook.Core.csproj", "{9DFCEE0F-38D4-40C7-A094-5E93F9860937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Infrastructure", "AddressBook.Infrastructure\AddressBook.Infrastructure.csproj", "{80517728-47AD-4F99-A271-C826D208BD12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F8BFD1A-2D01-4F60-B2AC-8E7F93837904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8BFD1A-2D01-4F60-B2AC-8E7F93837904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8BFD1A-2D01-4F60-B2AC-8E7F93837904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8BFD1A-2D01-4F60-B2AC-8E7F93837904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E10DEE-533F-4B25-8AC3-EE8ED4C8F5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E10DEE-533F-4B25-8AC3-EE8ED4C8F5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E10DEE-533F-4B25-8AC3-EE8ED4C8F5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E10DEE-533F-4B25-8AC3-EE8ED4C8F5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFCEE0F-38D4-40C7-A094-5E93F9860937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFCEE0F-38D4-40C7-A094-5E93F9860937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFCEE0F-38D4-40C7-A094-5E93F9860937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFCEE0F-38D4-40C7-A094-5E93F9860937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80517728-47AD-4F99-A271-C826D208BD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80517728-47AD-4F99-A271-C826D208BD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80517728-47AD-4F99-A271-C826D208BD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80517728-47AD-4F99-A271-C826D208BD12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F8BFD1A-2D01-4F60-B2AC-8E7F93837904} = {F6796243-9443-47F0-9B9E-394DC7933666}
+		{F6796243-9443-47F0-9B9E-394DC7933666} = {7815AF6F-5704-49D7-868F-2B22E978ED78}
+		{DEB6E769-4726-4599-B8E8-9E42BF20211B} = {7815AF6F-5704-49D7-868F-2B22E978ED78}
+		{82B3ED74-7E0A-4337-80A7-6E364FF46340} = {7815AF6F-5704-49D7-868F-2B22E978ED78}
+		{FE961543-E1FA-4890-A844-93E85D14BF41} = {7815AF6F-5704-49D7-868F-2B22E978ED78}
+		{C4E10DEE-533F-4B25-8AC3-EE8ED4C8F5B8} = {DEB6E769-4726-4599-B8E8-9E42BF20211B}
+		{9DFCEE0F-38D4-40C7-A094-5E93F9860937} = {82B3ED74-7E0A-4337-80A7-6E364FF46340}
+		{80517728-47AD-4F99-A271-C826D208BD12} = {FE961543-E1FA-4890-A844-93E85D14BF41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3780E18B-55FD-4D0B-9225-4726D18D77F7}
+	EndGlobalSection
+EndGlobal
